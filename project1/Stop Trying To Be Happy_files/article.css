@@ -1,0 +1,105 @@
+/*ENTIRE PAGE*/
+
+body {
+  font-size: 100%;
+  font-family: "helvetica neue", helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+
+#homepage {
+  margin: auto 5%;
+  width: 90%;
+  background-color:blue;
+  border: solid 1px black;
+}
+
+/*Header*/
+
+
+.title {
+  width: 93.75%;
+  background-color: white;
+  display: flex;
+  margin: 2.777778%;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin:8%;
+  margin-right: 0;
+  padding:3%;
+  color:white;
+  background-color: black;
+}
+
+
+.title .head {
+  background-color: #b0e0e6;
+  width:75%;
+  text-align: right;
+  margin:2%;
+  margin-right:auto;
+  background-image: url(background.png);
+
+}
+
+.title .info {
+  width: 25%;
+  margin:2%;
+  background-color: black;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  border: solid 1px red;
+
+}
+
+
+.mark, .design {
+  font-size: 0.75em;
+  border-bottom: solid 3px white;
+  width:60%;
+  background-color: blue;
+}
+
+.begin {
+  margin:5%;
+  align-self: center;
+}
+
+img {
+  max-width: 100%;
+  border: dotted 2px white;
+  padding:5px;
+
+
+
+}
+
+
+/*media querie currently not working
+@@media screen (min-width:600px){
+  .go {flex-direction:column;}
+}
+
+/*Author*/
+
+
+
+/*.by {
+    width:50%;
+    border-bottom: 5px solid white;
+    padding-left: 5%;
+}
+
+/*images*/
+
+
+
+/*media queries not working
+@@media screen (min-width:600px) {
+.author {flex-direction: column;}
+}
